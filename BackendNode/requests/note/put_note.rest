@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/notes/6515abbbf6ecffd26451cf8a
+Content-Type: application/json
+
+{
+    "content": "suscripcion",
+    "important": true
+}

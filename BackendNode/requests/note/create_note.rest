@@ -1,0 +1,18 @@
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MWFlOWUyMmUxMjUyOTg3OWIxZDhlNiIsInVzZXJuYW1lIjoibWF0aSIsImlhdCI6MTY5NjMyODA4OH0.ClEPKbN7uq9E7vzIDSSsqqdi0Pbk4umA1_TD_wwxdTY
+
+{
+    "content": "note 19.31",
+    "important": false
+}
+
+###
+
+POST http://localhost:3001/api/notes 
+Content-Type: application/json
+
+{
+    "content": "nueva nota 6",
+    "important": false
+}
